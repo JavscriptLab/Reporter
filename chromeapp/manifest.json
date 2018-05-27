@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "description": "Reporting Tool",
+  "name": "Reporter",
+  "version": "0.1.0",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["https://*/*",
+    "http://*/*","idle","storage","unlimitedStorage","alwaysOnTopWindows"],
+  "minimum_chrome_version": "60"
+
+}
